@@ -1,0 +1,320 @@
+@import url('https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,900;1,300&display=swap');
+body {
+    /**font-family: 'Be Vietnam Pro', sans-serif;**/
+    font-family: 'Roboto', sans-serif;
+}
+
+
+/**HEADER**/
+
+nav {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-weight: bold;
+    border-bottom: 1px solid rgba(128, 128, 128, 0.158);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.08);
+    margin-left: 50px;
+    margin-right: 50px;
+    z-index: 999;
+    position: sticky !important;
+    top: 0;
+    left: 0;
+}
+
+.navbar-brand:focus {
+    color: #706fd3;
+    border: 1px solid #706fd3;
+    background-color: white;
+    box-shadow: 6px 0px 2px 5px rgba(71, 71, 248, 0.2);
+    animation: anim-shadow .3s forwards;
+}
+
+.navbar-brand:hover {
+    transform: rotate(1turn);
+    border-radius: 8px;
+    transition: all 1s;
+}
+
+nav li {
+    padding: 0 10px;
+}
+
+nav li a:hover,
+nav li a.active {
+    color: #ff7d1b !important;
+}
+
+
+.navbar-brand {
+    font-weight: bolder;
+    font-size: 1.5em;
+    padding-bottom: 8px;
+}
+
+#qte-panier {
+    padding-left: 5px;
+    align-items: center;
+    color: #ff7d1b;
+    font-weight: bold;
+    border-radius: 50%;
+}
+
+#panier {
+    position: relative;
+    z-index: 1;
+    display: flex;
+}
+
+#panier:hover {
+    color: fff;
+    cursor: pointer;
+}
+
+#panier:before {
+    transition: 0.2s all ease;
+    position: absolute;
+    top: 0;
+    left: 40%;
+    right: 40%;
+    bottom: 0;
+    opacity: 0;
+    content: "";
+    box-shadow: 6px 6px 2px 1px rgba(71, 71, 248, 0.2);
+    border-radius: 8px;
+}
+
+#panier:hover:before {
+    transition: 0.5s all ease;
+    left: 0;
+    right: 0;
+    opacity: 1;
+    z-index: -1;
+}
+
+.d-flex a {
+    text-decoration: none;
+}
+
+#avatar {
+    position: relative;
+    z-index: 1;
+}
+
+#avatar:hover {
+    color: fff;
+    cursor: pointer;
+}
+
+#avatar:before {
+    transition: 0.2s all ease;
+    position: absolute;
+    top: 0;
+    left: 40%;
+    right: 40%;
+    bottom: 0;
+    opacity: 0;
+    content: "";
+    box-shadow: 6px 6px 2px 1px rgba(71, 71, 248, 0.2);
+    border-radius: 8px;
+}
+
+#avatar:hover:before {
+    transition: 0.5s all ease;
+    left: 0;
+    right: 0;
+    opacity: 1;
+    z-index: -1;
+}
+
+
+/** FIN HEADER**/
+
+
+/**BOUTON ET CHOIX QUANTITE**/
+section .btn-add-card {
+    background-color: #ff7d1b;
+    margin: 15px;
+    padding-left: 40px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    padding-right: 40px;
+    border-radius: 8px;
+    color: white;
+    border: 1px solid #ff7d1b;
+    box-shadow: 6px 6px 2px 1px rgba(71, 71, 248, 0.2);
+    position: relative;
+    z-index: 1;
+}
+
+.btn-add-card:hover {
+    color: fff;
+    cursor: pointer;
+}
+
+.btn-add-card:before {
+    transition: 0.5s all ease;
+    position: absolute;
+    top: 0;
+    left: 40%;
+    right: 40%;
+    bottom: 0;
+    opacity: 0;
+    content: "";
+    background-color: #ffebd9;
+    border-radius: 8px;
+}
+
+.btn-add-card:hover:before {
+    transition: 0.5s all ease;
+    left: 0;
+    right: 0;
+    opacity: 1;
+    z-index: -1;
+}
+
+section .btn-qte {
+    padding-left: 30px;
+    padding-right: 30px;
+    border-radius: 8px;
+    color: #ff7d1b;
+    font-weight: bold;
+    border: 1px solid white;
+    font-size: 1000;
+    font-size: 1.5em;
+    background-color: white;
+    transition: all 1ms;
+}
+
+.qte-stock {
+    font-weight: bold;
+    font-size: 1000;
+    padding-top: 11%;
+}
+
+.qte {
+    display: flex;
+}
+
+.add {
+    padding-left: 5px;
+}
+
+/** FIN BOUTON ET CHOIX QUANTITE**/
+
+
+/**IMAGES SNEAKERS**/
+.small-img-group {
+    display: flex;
+    justify-content: space-between;
+}
+
+.img-fluid {
+    display: flex;
+    justify-content: space-between;
+    border-radius: 30px;
+}
+
+.small-img-col {
+    flex-basis: 20%;
+    cursor: pointer;
+}
+
+.small-img {
+    border-radius: 8px;
+}
+
+
+.small-img-col {
+    transition-duration: .3s;
+}
+
+.small-img-col:hover {
+    transform: scale(1.1);
+}
+/** FIN IMAGES SNEAKERS**/
+
+
+/**INFOS TEXTE DU PRODUIT**/
+.product-infos {
+    padding-top: 10%;
+}
+
+.company-name {
+    color: #ff7d1b;
+    font-weight: bold;
+    font-size: 0.9em;
+}
+
+.product-name {
+    font-weight: 999;
+    padding-top: 2%;
+    padding-bottom: 5%;
+}
+
+.bloc-price {
+    padding-top: 5%
+}
+
+.price-reduc {
+    display: flex;
+    align-items: center;
+    align-items: flex-end;
+}
+
+.price-with-reduc {
+    margin-right: 2%;
+    font-weight: 600;
+}
+
+.reduc {
+    background-color: #fdf8f1;
+    padding-left: 15px;
+    padding-right: 15px;
+    color: #ec710c;
+    font-weight: bold;
+}
+
+.euro {
+    font-weight: bold;
+    margin-bottom: 8px;
+    margin-right: 5px;
+    font-size: x-large;
+}
+
+.price-without-reduc {
+    color: gray;
+}
+/** FIN INFOS TEXTE DU PRODUIT**/
+
+
+
+
+/** COMPTE A REBOURS PROMO**/
+.countdown {
+    display: flex;
+    padding-top: 5px;
+    transform: scale(0.7);
+    margin-right: 50px;
+}
+
+.timer {
+    align-items: flex-start;
+    padding-right: 2000px;
+}
+
+.time {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-right: 30px;
+}
+
+.solde {
+    font-weight: normal;
+    padding-top: 30px;
+    color: rgba(128, 128, 128, 0.938);
+}
+
+/** FIN COMPTE A REBOURS PROMO**/
