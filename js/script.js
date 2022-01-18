@@ -26,16 +26,24 @@ let ajtPanier = document.getElementById('ajouterPanier')
 let qtePanier = document.getElementById('qte-panier')
 let vPrix = 125;
 prixreduc.innerHTML = vPrix
+let nbChoix =0;
 
 ajtPanier.addEventListener('click', () => {
-    
-    if (n === 0) {
-        alert("Vous devez choisir au moins 1 article")
-    } else {
-        qtePanier.innerHTML = n
-        nbChoix++;
-    } 
+    let nbPanier = qte.innerHTML
+    nbChoix++
 
+
+    if (nbChoix=1){
+        if (n === 0) {
+            alert("Vous devez choisir au moins 1 article")
+        } else {
+            qtePanier.innerHTML = n
+            nbChoix++;
+        } 
+    
+    }
+
+   
 
 
 

@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<head>
+<header>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- displays site properly based on user's device -->
@@ -13,14 +13,11 @@
     <link rel="stylesheet" href="css/lightbox.min.css">
     <link rel="stylesheet" href="css/magic.min.css">
     <script src="js/lightbox-plus-jquery.min.js"></script>
-    <title>E-commerce product page</title>
-
-    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-
-</head>
+    <title>Sneakers</title>
+</header>
 
 <body>
-
+<!--NAVBAR-->
     <nav class="navbar navbar-expand-lg navbar-light bg-white">
         <div class="container">
             <a class="navbar-brand" href="#">sneakers</a>
@@ -30,19 +27,19 @@
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                     <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#">Collections</a>
+                        <a class="nav-link active" aria-current="page" href="index.html">Collections</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="index.html">Men</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" aria-current="page" href="index.html">Women</a>
+                        <a class="nav-link" href="index.html">Women</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link">About</a>
+                        <a class="nav-link" href="index.html">About</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link">Contact</a>
+                        <a class="nav-link" href="contact.html">Contact</a>
                     </li>
                 </ul>
 
@@ -59,6 +56,11 @@
             </div>
         </div>
     </nav>
+
+<!--FIN NAVBAR-->
+
+
+<!--PHOTOS-->
     <div class="container my-2 pt-2">
         <div class="row mt-5">
             <article class="col-lg-5 col-md-12 col-12">
@@ -90,6 +92,9 @@
                     </div>
                 </div>
             </article>
+<!--FIN PHOTO-->
+
+<!--INFOS PRODUIT-->
             <section class="offset-lg-1 col-lg-5 col-md-12 col-12">
                 <div class="product-infos">
                     <h4 class="company-name">Sneaker Company</h4>
@@ -105,6 +110,10 @@
 
                         <p class="price-without-reduc"><strike>$250.00</strike></p>
                     </div>
+<!--FIN INFOS PRODUITS-->
+
+
+<!--BOUTTON ADDCART / + et - -->
                     <div class="btn-group" role="group" aria-label="Basic example">
                         <div class="btn-group" role="group" aria-label="Basic outlined example">
                             <div class="qte">
@@ -114,9 +123,13 @@
                             </div>
                         </div>
                     </div>
+
                     <span class="add" id="ajouterPanier"> 
                     <button type="button" class="btn-add-card">
                         <i class="bi bi-cart3"></i> Add to cart </button></span>
+<!-- FIN BOUTTON ADDCART / + et - -->
+
+<!--PROMOTION TIMER-->
                     <div class="solde" id="solde">Fin de promotion : </div>
                     <div class="timer">
                         <div class="countdown" id="countdown">
@@ -138,6 +151,7 @@
                             </div>
                         </div>
                     </div>
+<!-- FIN PROMOTION TIMER-->
             </section>
             </div>
         </div>

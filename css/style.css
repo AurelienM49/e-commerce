@@ -22,14 +22,6 @@ nav {
     left: 0;
 }
 
-.navbar-brand:focus {
-    color: #706fd3;
-    border: 1px solid #706fd3;
-    background-color: white;
-    box-shadow: 6px 0px 2px 5px rgba(71, 71, 248, 0.2);
-    animation: anim-shadow .3s forwards;
-}
-
 .navbar-brand:hover {
     transform: rotate(1turn);
     border-radius: 8px;
@@ -318,3 +310,8 @@ section .btn-qte {
 }
 
 /** FIN COMPTE A REBOURS PROMO**/
+
+
+/** CONTACT **/
+
+
