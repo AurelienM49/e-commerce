@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,900;1,300&display=swap');
+body {
+    /**font-family: 'Be Vietnam Pro', sans-serif;**/
+    font-family: 'Roboto', sans-serif;
+}
+
+
+/**CONTACT**/
+
+section#contact{
+    padding: 100px 0;
+}
+
+section#contact .formulaire{
+    max-width: 900px;
+    margin: 0 auto;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   flex-direction: column;
+   background-color: white;
+   padding: 30px 10px;
+   box-sizing: border-box;
+   border-radius: 15px;
+   box-shadow: 0px 10px 50px -10px #d6d6d6;
+}
+
+section#contact .formulaire .title-formulaire {
+    text-align: center;
+    color: #2a2a2a;
+    margin-bottom: 50px;
+}
+
+section#contact .formulaire .title-formulaire h6{
+    font-size: 1.2em;
+    font-weight: 500;
+}
+section#contact .formulaire .title-formulaire h3{
+    font-size: 2em;
+    font-weight: 600;
+}
+
+section#contact .formulaire form{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    max-width: 600px;
+}
+
+section#contact .formulaire form input {
+    width: 47%;
+}
+
+section#contact .formulaire form input:hover,
+section#contact .formulaire form textarea:hover {
+    border-bottom: 2px solid #ff7d1b;
+}
+
+
+section#contact .formulaire form input,
+section#contact .formulaire form textarea {
+    width: 47%;
+    margin: 10px 0;
+    padding: 10px;
+    box-sizing: border-box;
+    border: none;
+    outline: none;
+    border-bottom: 2px solid#e4e4ec;
+    transition: 0.2s;
+}
+
+
+section#contact .formulaire form textarea {
+    width: 100%;
+    resize: none;
+    height: 130px;
+    margin-bottom: 35px;
+}
+
+
+section#contact .formulaire form button {
+    width: 150px;
+    height: 50px;
+    border-radius: 8px;
+    border: none;
+    background-color: #ff7d1b;
+    color: white;
+    font-weight: bold;
+    font-size: 1.2em;
+    cursor: pointer;
+    margin-top: 30px;
+    outline: none;
+    margin: 0 auto;
+
+
+
+}

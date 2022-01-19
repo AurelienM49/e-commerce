@@ -6,9 +6,10 @@ const daystxt = document.getElementById('daystxt');
 const hourstxt = document.getElementById('hourstxt');
 const mintxt = document.getElementById('mintxt');
 const sectxt = document.getElementById('sectxt');
+const timer = document.getElementById('timer')
 
 const currentDate = new Date().getFullYear();
-const dropFinish = new Date('January 16 2022 18:32:00');
+const dropFinish = new Date('January 19 2022 18:11:45');
 const txtSolde = document.getElementById('solde')
 
 
