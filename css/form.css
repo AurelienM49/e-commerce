@@ -8,22 +8,26 @@ body {
 
 /**CONTACT**/
 
-section#contact{
+.navbar-brand {
+    margin-left: 10px !important;
+}
+
+section#contact {
     padding: 100px 0;
 }
 
-section#contact .formulaire{
+section#contact .formulaire {
     max-width: 900px;
     margin: 0 auto;
-   display: flex;
-   justify-content: space-between;
-   align-items: center;
-   flex-direction: column;
-   background-color: white;
-   padding: 30px 10px;
-   box-sizing: border-box;
-   border-radius: 15px;
-   box-shadow: 0px 10px 50px -10px #d6d6d6;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    background-color: white;
+    padding: 30px 10px;
+    box-sizing: border-box;
+    border-radius: 15px;
+    box-shadow: 0px 10px 50px -10px #d6d6d6;
 }
 
 section#contact .formulaire .title-formulaire {
@@ -32,16 +36,17 @@ section#contact .formulaire .title-formulaire {
     margin-bottom: 50px;
 }
 
-section#contact .formulaire .title-formulaire h6{
+section#contact .formulaire .title-formulaire h6 {
     font-size: 1.2em;
     font-weight: 500;
 }
-section#contact .formulaire .title-formulaire h3{
+
+section#contact .formulaire .title-formulaire h3 {
     font-size: 2em;
     font-weight: 600;
 }
 
-section#contact .formulaire form{
+section#contact .formulaire form {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
@@ -57,7 +62,6 @@ section#contact .formulaire form textarea:hover {
     border-bottom: 2px solid #ff7d1b;
 }
 
-
 section#contact .formulaire form input,
 section#contact .formulaire form textarea {
     width: 47%;
@@ -70,14 +74,12 @@ section#contact .formulaire form textarea {
     transition: 0.2s;
 }
 
-
 section#contact .formulaire form textarea {
     width: 100%;
     resize: none;
     height: 130px;
     margin-bottom: 35px;
 }
-
 
 section#contact .formulaire form button {
     width: 150px;
@@ -92,7 +94,4 @@ section#contact .formulaire form button {
     margin-top: 30px;
     outline: none;
     margin: 0 auto;
-
-
-
 }
